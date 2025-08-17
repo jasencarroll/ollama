@@ -60,6 +60,13 @@ cmake --build build --config Release
 > cmake --build build --config Release
 > ```
 
+- You may also need to install [mingw64](https://www.mingw-w64.org/) for Go CGO to compile and serve correctly. The best way could be in an administrative PowerShell with [choco](https://chocolatey.org/install)
+
+Note: Install choco with admin PoweSshell.
+
+```shell
+choco install mingw
+```
 
 Lastly, run Ollama:
 
